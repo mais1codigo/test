@@ -1,0 +1,139 @@
+body{
+    width: 80%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    max-width: 1280px;
+}
+
+p{
+    text-indent: 1rem
+}
+
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+h1{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+
+.zen-resources{
+    margin-top: 4%;
+    padding: 10%;
+    display: flexbox;
+    text-align: center                                      ;
+}
+
+.view-css, .css-resources, .zen-faq, .zen-submit, .zen-translations{
+    display: inline-block;
+    padding: 0.5em;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.page-wrapper{
+    margin-left: 2%;
+}
+
+.design-selection{
+
+    float: right;
+    position: relative;
+    align-items: center;
+}
+
+.explanation{
+    padding: 20px;
+    align-items: center;
+}
+
+.bene{
+    height: 30%;
+    width: 30%;
+    float: right;
+    position: relative;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.benefits{
+    padding: auto;
+    border-top: #1f295c solid;
+    border-bottom: #1f295c solid;
+    margin-top: 30px;
+    margin-bottom:30px;
+    align-items: center;
+}
+
+.partic{height: 70%;
+    width: 70%;
+    margin: 10px;
+}
+
+.part{
+    float: none;
+}
+
+.participation{
+    padding: auto;
+    border-top: #1f295c solid;
+    border-bottom: #1f295c solid;
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
+}
+
+a:visited{
+    font-weight: normal;
+}
+a:hover{
+    color: aqua;
+}
+
+.first::first-letter{
+font-size: 300%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+float: left;
+margin-right: 15px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    background-color: blueviolet;
+    color: azure;
+    padding: 20px;
+}
+
+.in {
+    border-top: #fb00ac solid;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.preamble, .summary {
+    border-top: #fb00ac solid;
+    border-bottom: #fb00ac solid;
+    margin-bottom: 20px;
+}   
